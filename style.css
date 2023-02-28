@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    background:url(img/fondEcran.jpg);
+    background-position: 0 0;
+    animation-name: animationFondEcran;
+    animation-duration:12s;
+    animation-iteration-count:infinite;
+    animation-fill-mode: backwards;
+    animation-timing-function:linear;
+}
+
+@keyframes animationFondEcran{
+    from{
+        background-position:0 0
+    }
+
+    to{
+        background-position: 0 1000px;
+    }
+}
